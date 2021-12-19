@@ -5431,9 +5431,9 @@ MoveHitTest:
 	ret nz
 .moveMissed
 	xor a
-	ld hl, wDamage ; zero the damage
-	ld [hli], a
-	ld [hl], a
+	;ld hl, wDamage ; zero the damage
+	;ld [hli], a
+	;ld [hl], a
 	inc a
 	ld [wMoveMissed], a
 	ldh a, [hWhoseTurn]
