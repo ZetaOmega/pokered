@@ -1259,42 +1259,37 @@ FlareonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, EMBER
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, LEER
-	db 44, FIRE_SPIN
-	db 48, RAGE
-	db 54, FLAMETHROWER
+	db 9, EMBER
+	db 15, FIRE_SPIN
+	db 22, FOCUS_ENERGY
+	db 30, FLAMETHROWER
+	db 38, DOUBLE_EDGE
+	db 46, FIRE_BLAST
 	db 0
 
 JolteonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, THUNDERSHOCK
-	db 37, TAIL_WHIP
-	db 40, THUNDER_WAVE
-	db 42, DOUBLE_KICK
-	db 44, AGILITY
-	db 48, PIN_MISSILE
-	db 54, THUNDER
+	db 7, THUNDERSHOCK
+	db 13, PIN_MISSILE
+	db 20, THUNDER_WAVE
+	db 27, DOUBLE_KICK
+	db 34, AGILITY
+	db 41, THUNDERBOLT
+	db 48, THUNDER
 	db 0
 
 VaporeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, WATER_GUN
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, ACID_ARMOR
-	db 44, HAZE
-	db 48, MIST
-	db 54, HYDRO_PUMP
+	db 8, BUBBLE
+	db 15, BUBBLEBEAM
+	db 22, ACID_ARMOR
+	db 28, HAZE
+	db 35, AURORA_BEAM
+	db 42, HYDRO_PUMP
 	db 0
 
 MachopEvosMoves:
