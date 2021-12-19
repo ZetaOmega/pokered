@@ -164,6 +164,7 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw ShockWaveAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -689,6 +690,14 @@ ThunderWaveAnim:
 	battle_anim THUNDER_WAVE, SUBANIM_29, 1, 2
 	battle_anim NO_MOVE, SUBANIM_23, 0, 2
 	battle_anim NO_MOVE, SUBANIM_23, 0, 4
+	db -1 ; end
+
+ShockWaveAnim:
+	battle_anim SHOCK_WAVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_2B, 1, 3
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 ThunderAnim:

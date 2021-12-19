@@ -1272,7 +1272,7 @@ JolteonEvosMoves:
 	db 0
 ; Learnset
 	db 7, THUNDERSHOCK
-	db 13, PIN_MISSILE
+	db 13, SHOCK_WAVE
 	db 20, THUNDER_WAVE
 	db 27, DOUBLE_KICK
 	db 34, AGILITY
