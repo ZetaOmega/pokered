@@ -5428,7 +5428,7 @@ MoveHitTest:
 	call BattleRandom
 	cp b
 	jr nc, .moveMissed
-	ret
+	ret nz
 .moveMissed
 	xor a
 	ld hl, wDamage ; zero the damage
